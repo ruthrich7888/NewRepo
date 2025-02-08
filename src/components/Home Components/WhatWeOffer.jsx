@@ -15,7 +15,7 @@ const WhatWeOffer = () => {
       <div className="top-sec">
         <div className="container">
           <div className="top-section">
-            <div className="content">
+            <div className="content1">
               <div className="image-container1">
                 <img
                   src={imgabout1}

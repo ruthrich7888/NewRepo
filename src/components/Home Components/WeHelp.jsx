@@ -6,7 +6,7 @@ import ActionBtn from "../ActionBtn";
 
 const WeHelp = () => {
   return (
-    <div className="footer-top-bar py-3 text-dark">
+    <div className="footer-top-bar  p-lg-4 p-3 text-dark">
       <div className="container">
         <div className="footer-content">
           <div className="headline">
