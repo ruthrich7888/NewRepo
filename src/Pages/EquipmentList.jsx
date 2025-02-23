@@ -51,64 +51,75 @@ const EquipmentList = () => {
               </div>
 
               <div className="col">
-                <main className="rental-container">
-                  <div className="rental-box">
-                    <div className="pricing">
-                      <LuWatch className="luwatch" />
+                <main className="rental-contai">
+                  <div>
+                    <div className="rental-box">
+                      <div className="pricing">
+                        <LuWatch className="luwatch" />
 
-                      <span> $500/Day</span>
-                      <span> $2,500/Day</span>
-                      <span> $7,500/Month</span>
-                    </div>
+                        <span> $500/Day</span>
+                        <span> $2,500/Day</span>
+                        <span> $7,500/Month</span>
+                      </div>
 
-                    <div className="line m-1">
-                      <Line
-                        length={440}
-                        color="black"
-                        orientation="horizontal"
-                      />
-                    </div>
-                    <h6 className="ph6">Two Way Delivery: $58.00</h6>
-                    <div className="line m-1">
-                      <Line
-                        length={440}
-                        color="black"
-                        orientation="horizontal"
-                      />
-                    </div>
-                    <div className="details1">
-                      <div className="left1">
-                        <p>. Brand: Caterpillar 320 GC</p>
-                        <p>. Manufacture Year: 2021</p>
-                        <p>. Digging Depth: 22 feet</p>
-                        <p>. operating Weight: 22,500lbs</p>
+                      <div className="line1 m-1">
+                        <Line
+                          length={"100%"}
+                          color="black"
+                          orientation="horizontal"
+                        />
                       </div>
-                      <div className="right1">
-                        <p>. Brand: Genie GS-1930</p>
-                        <p>. Manufacture Year: 2019</p>
-                        <p>. Platform Height: 19 feet</p>
-                        <p>. Lift Capacity: 500lbs</p>
+                      <h6 className="ph6">Two Way Delivery: $58.00</h6>
+                      <div className="line1 m-1 ">
+                        <Line
+                          length={"100%"}
+                          color="black"
+                          orientation="horizontal"
+                        />
                       </div>
-                      <div className="trp-card">
-                        <div>
-                          <p className="total-p1">
-                            <h5 className="strong fw-bolder">
-                              {" "}
-                              Total Rental Price
-                            </h5>{" "}
-                            <h6 className="">Incl. Taxes</h6>
-                            <h5 className="strong fw-bolder"> $8,025.00</h5>
-                            <div className="line m-2">
-                              <Line
-                                length={145}
-                                color="black"
-                                orientation="horizontal"
-                              />
+                      <div className="details1">
+                        <div className="d-block d-md-flex">
+                          <div>
+                            <div className="left1">
+                              <p>. Brand: Caterpillar 320 GC</p>
+                              <p>. Manufacture Year: 2021</p>
+                              <p>. Digging Depth: 22 feet</p>
+                              <p>. operating Weight: 22,500lbs</p>
                             </div>
-                          </p>
-                          <button className="r-btn">
-                            <h5>RESERVE</h5>
-                          </button>
+                            <div className="right1">
+                              <p>. Brand: Genie GS-1930</p>
+                              <p>. Manufacture Year: 2019</p>
+                              <p>. Platform Height: 19 feet</p>
+                              <p>. Lift Capacity: 500lbs</p>
+                            </div>
+                          </div>
+                          <div>
+                            <div className="trp-card">
+                              <div className="">
+                                <p className="total-p1">
+                                  <h5 className="strong fw-bolder">
+                                    {" "}
+                                    Total Rental Price
+                                  </h5>{" "}
+                                  <h6 className="">Incl. Taxes</h6>
+                                  <h5 className="strong fw-bolder">
+                                    {" "}
+                                    $8,025.00
+                                  </h5>
+                                  <div className="line m-1">
+                                    <Line
+                                      length={"100%"}
+                                      color="black"
+                                      orientation="horizontal"
+                                    />
+                                  </div>
+                                </p>
+                                <button className="r-btn">
+                                  <h5>RESERVE</h5>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -123,56 +134,59 @@ const EquipmentList = () => {
                         <span> $3,500/Month</span>
                       </div>
 
-                      <div className="line m-2">
+                      <div className="line1 m-1">
                         <Line
-                          length={440}
+                          length={"100%"}
                           color="black"
                           orientation="horizontal"
                         />
                       </div>
                       <h6 className="ph6">Two Way Delivery: $48.00</h6>
-                      <div className="line m-1 ">
+                      <div className="line1 m-1 ">
                         <Line
-                          length={440}
+                          length={"100%"}
                           color="black"
                           orientation="horizontal"
                         />
                       </div>
                       <div className="details1">
-                        <div className="left1">
-                          <p>. Brand: JLG 600AJ</p>
-                          <p>. Manufacture Year: 2020</p>
-                          <p>. Platform Height: 60 feet</p>
-                          <p>. Horizontal Reach: 39 feet</p>
-                        </div>
-                        <div className="right1">
-                          <p>. Brand: Toyota 8FGCU25</p>
-                          <p>. Manufacture Year: 2018</p>
-                          <p>. Lift Capacity: 5,000lbs</p>
-                          <p>. Lift Height: 189inches</p>
-                        </div>
-                        <div className="trp-card">
-                          <div>
-                            <p className="total-p1">
-                              <h5 className="strong fw-bolder">
-                                {" "}
-                                Total Rental Price
-                              </h5>{" "}
-                              <h6 className="">Incl. Taxes</h6>
-                              <h5 className="strong fw-bolder"> $3,745.00</h5>
-                              <div className="line m-2">
-                                <Line
-                                  length={145}
-                                  color="black"
-                                  orientation="horizontal"
-                                />
-                              </div>
-                            </p>
-                            <button className="r-btn">
-                              <h5>RESERVE</h5>
-                            </button>
+                        <div>
+                          <div className="left1">
+                            <p>. Brand: JLG 600AJ</p>
+                            <p>. Manufacture Year: 2020</p>
+                            <p>. Platform Height: 60 feet</p>
+                            <p>. Horizontal Reach: 39 feet</p>
+                          </div>
+                          <div className="right1">
+                            <p>. Brand: Toyota 8FGCU25</p>
+                            <p>. Manufacture Year: 2018</p>
+                            <p>. Lift Capacity: 5,000lbs</p>
+                            <p>. Lift Height: 189inches</p>
+                          </div>
+                          <div className="trp-card">
+                            <div>
+                              <p className="total-p1">
+                                <h5 className="strong fw-bolder">
+                                  {" "}
+                                  Total Rental Price
+                                </h5>{" "}
+                                <h6 className="">Incl. Taxes</h6>
+                                <h5 className="strong fw-bolder"> $3,745.00</h5>
+                                <div className="line m-1">
+                                  <Line
+                                    length={"100%"}
+                                    color="black"
+                                    orientation="horizontal"
+                                  />
+                                </div>
+                              </p>
+                              <button className="r-btn">
+                                <h5>RESERVE</h5>
+                              </button>
+                            </div>
                           </div>
                         </div>
+                        <div></div>
                       </div>
                     </div>
                   </div>
@@ -185,56 +199,59 @@ const EquipmentList = () => {
                         <span> $2,200/Month</span>
                       </div>
 
-                      <div className="line m-1">
+                      <div className="line1 m-1">
                         <Line
-                          length={440}
+                          length={"100%"}
                           color="black"
                           orientation="horizontal"
                         />
                       </div>
                       <h6 className="ph6">Two Way Delivery: $43.00</h6>
-                      <div className="line m-1">
+                      <div className="line1 m-1">
                         <Line
-                          length={440}
+                          length={"100%"}
                           color="black"
                           orientation="horizontal"
                         />
                       </div>
                       <div className="details1">
-                        <div className="left1">
-                          <p>. Brand: BomagBW 120 AD-5</p>
-                          <p>. Manufacture Year: 2019</p>
-                          <p>. Operating Weight: 5,300lbs</p>
-                          <p>. Drum Width: 47 inches</p>
-                        </div>
-                        <div className="right1">
-                          <p>. Brand: Hamm HD 12 VV</p>
-                          <p>. Manufacture Year: 2020</p>
-                          <p>. Operating Weight: 6,500lbs</p>
-                          <p>. drum Width: 47 Inches</p>
-                        </div>
-                        <div className="trp-card">
-                          <div>
-                            <p className="total-p1">
-                              <h5 className="strong fw-bolder">
-                                {" "}
-                                Total Rental Price
-                              </h5>{" "}
-                              <h6 className="">Incl. Taxes</h6>
-                              <h5 className="strong fw-bolder"> $2,354.00</h5>
-                              <div className="line m-2">
-                                <Line
-                                  length={145}
-                                  color="black"
-                                  orientation="horizontal"
-                                />
-                              </div>
-                            </p>
-                            <button className="r-btn">
-                              <h5>RESERVE</h5>
-                            </button>
+                        <div>
+                          <div className="left1">
+                            <p>. Brand: BomagBW 120 AD-5</p>
+                            <p>. Manufacture Year: 2019</p>
+                            <p>. Operating Weight: 5,300lbs</p>
+                            <p>. Drum Width: 47 inches</p>
+                          </div>
+                          <div className="right1">
+                            <p>. Brand: Hamm HD 12 VV</p>
+                            <p>. Manufacture Year: 2020</p>
+                            <p>. Operating Weight: 6,500lbs</p>
+                            <p>. drum Width: 47 Inches</p>
+                          </div>
+                          <div className="trp-card">
+                            <div>
+                              <p className="total-p1">
+                                <h5 className="strong fw-bolder">
+                                  {" "}
+                                  Total Rental Price
+                                </h5>{" "}
+                                <h6 className="">Incl. Taxes</h6>
+                                <h5 className="strong fw-bolder"> $2,354.00</h5>
+                                <div className="line1 m-1">
+                                  <Line
+                                    length={"100%"}
+                                    color="black"
+                                    orientation="horizontal"
+                                  />
+                                </div>
+                              </p>
+                              <button className="r-btn">
+                                <h5>RESERVE</h5>
+                              </button>
+                            </div>
                           </div>
                         </div>
+                        <div></div>
                       </div>
                     </div>
                   </div>

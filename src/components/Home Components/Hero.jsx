@@ -40,12 +40,12 @@ const Hero = () => {
         </div>
       </div>
       <div>
-        <div className="p-4 mt-5">
-          <p className="d-flex justify-content-center pt-5">
+        <div className="p-3 mt-5 ">
+          <p className="d-flex  justify-content-center pt-5">
             We Promise To Find You The Right Equipment.
           </p>
           <h2
-            className="fw-bold d-flex justify-content-center "
+            className="fw-bold d-flex justify-content-center"
             id="categories1"
           >
             Browse Machinery Categories
@@ -54,9 +54,9 @@ const Hero = () => {
         <div className="categories-container">
           {equipments.map((equipment) => {
             return (
-              <div className="category-item" key={equipment.id}>
-                <img src={equipment.Image} alt=" {item.title} " />
-                <h5> {equipment.title} </h5>
+              <div className="category-item" key={equipment._id}>
+                <img src={equipment.Image} alt={equipment.title} />
+                <h5 className=""> {equipment.title} </h5>
               </div>
             );
           })}

@@ -22,6 +22,7 @@
   align-items: center;
   max-width: 1200px;
   width: 100%;
+  /* position: sticky; */
 }
 .logo img {
   height: 50px;
@@ -230,37 +231,38 @@
 .categories li {
   cursor: pointer;
 }
-.rental-container {
+.rental-contai {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
-  width: 75%;
+  gap: 10px;
+  /* max-width: 700px; */
 }
 
 .rental-box {
-  width: calc(50% -10px);
   background: #f8f8f8;
-  padding: 15px;
+  padding: 5px;
   text-align: center;
   box-shadow: 2px 2px 10px rgba (0, 0, 0, 0.1);
-  min-width: 280px;
 }
 @media (max-width: 1024px) {
   .categories {
     width: 100%;
     text-align: center;
   }
-  .rental-container {
-    width: 100%;
+  .rental-contai {
+    /* width: 100%; */
+    width: 78%;
+
     justify-content: center;
   }
   .rental-box {
-    width: 100%;
+    /* width: 100%; */
   }
 }
 @media (max-width: 768px) {
   .rental-box {
-    width: 100%;
+    padding: 15px;
+    /* width: 100%; */
   }
 }
 
@@ -273,13 +275,13 @@
 }
 .ph6 {
   margin-right: 140px;
-  padding-right: 140px;
+  padding-right: 1px;
 }
 .details1 {
   display: flex;
   justify-content: space-between;
   text-align: left;
-  padding: 10px 0;
+  padding: 10px 5px;
 }
 .details1.left,
 .details1.right {
@@ -473,6 +475,15 @@ input[type="checkbox"] {
     width: 90%;
     margin-bottom: 10px;
   }
+  .line1 {
+    width: 60%;
+  }
+  .find-button {
+    width: 100%;
+  }
+  .input-field {
+    width: 40%;
+  }
 }
 .hero-section {
   position: relative;
@@ -489,6 +500,8 @@ input[type="checkbox"] {
   gap: 50px;
   text-align: center;
   margin: 30px;
+  flex-wrap: wrap;
+  margin: 2px;
 }
 .category-itemm img {
   width: 150px;
@@ -549,10 +562,23 @@ input[type="checkbox"] {
 }
 .content1 {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 4rem;
   position: relative;
   z-index: 2;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .image-container img,
+  .text-container {
+    width: 100%;
+  }
 }
 .image-container1 {
   flex: 1;
@@ -566,6 +592,8 @@ input[type="checkbox"] {
 .image-container img {
   width: 100%;
   max-width: 200px;
+  object-fit: cover;
+  height: auto;
 }
 
 .top-image {
