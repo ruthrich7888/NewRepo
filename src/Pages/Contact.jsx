@@ -51,7 +51,7 @@ const Contact = () => {
                       <LuPhoneCall />
                     </span>
                     <h6>For Rental Support</h6>
-                    <h6>+1 800 567 0000/ +1 800 909 0000 </h6>
+                    <h6>+1 352 255 3979 / +1 352 255 3979 </h6>
                   </div>
                   <div className="line m-1">
                     <Line length={170} color="white" orientation="horizontal" />
@@ -83,7 +83,12 @@ const Contact = () => {
               </p>
               <div className="contact-form">
                 <form action="submit.php" method="POST">
-                  <input type="text" name="name" placeholder="name..........*" required />
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="name..........*"
+                    required
+                  />
                   <input
                     type="email"
                     name="email"

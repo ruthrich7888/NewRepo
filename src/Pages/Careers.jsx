@@ -60,7 +60,8 @@ const Careers = () => {
       if (response.ok) {
         alert("Form submitted successfully!");
       } else {
-        alert("Something went wrong. Please try again.");git 
+        alert("Something went wrong. Please try again.");
+        git;
       }
       const result = await response.json();
       console.log(result);

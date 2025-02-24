@@ -4,7 +4,6 @@ import Head from "./Head";
 import Footer from "./Footer";
 // import Head from "./components/Head";
 
-
 const Layout = ({ children }) => {
   return (
     <>
