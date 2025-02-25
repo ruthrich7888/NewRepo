@@ -2,32 +2,32 @@ export const equipments = [
   {
     _id: 1,
     title: "EXCAVATORS",
-    Image: "../src/components/assets/Group 2.png",
+    Image: "../src/components/assets/group 2.png",
   },
   {
     _id: 2,
     title: "SCISSOR LIFT",
-    Image: "../src/components/assets/Group 5.png",
+    Image: "../src/components/assets/group 5.png",
   },
   {
     _id: 3,
     title: "BOOMLIFT",
-    Image: "../src/components/assets/Group 4.png",
+    Image: "../src/components/assets/group 4.png",
   },
   {
     _id: 4,
     title: "FORKLIFT",
-    Image: "../src/components/assets/Group 1.png",
+    Image: "../src/components/assets/group 1.png",
   },
   {
     _id: 5,
     title: "COMPACTION",
-    Image: "../src/components/assets/Group 6.png",
+    Image: "../src/components/assets/group 6.png",
   },
   {
     _id: 6,
     title: "ROLLER",
-    Image: "../src/components/assets/Group 5.png",
+    Image: "../src/components/assets/group 5.png",
   },
 ];
 
