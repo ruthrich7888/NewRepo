@@ -34,7 +34,7 @@ const Contact = () => {
           <div className="row">
             <div className="col">
               <aside>
-                <aside className="contactus-categories m-5">
+                <aside className="contactus-categories m-4">
                   <h3>Contact Details </h3>
                   <div className="line m-1">
                     <Line length={140} color="white" orientation="horizontal" />
@@ -67,7 +67,13 @@ const Contact = () => {
                   <div>
                     <CiMail />
                     <h6>Send Us Email</h6>
-                    <h6>info@agricfarmworklsllc.com</h6>
+                    <a
+                      href=" 
+                    mailto:info@agriculturalfarmsworksrentalllc.com"
+                      className="text-decoration-none text-white"
+                    >
+                      info@agriculturalfarmsworksrentalllc.com
+                    </a>
                   </div>
                 </aside>
               </aside>

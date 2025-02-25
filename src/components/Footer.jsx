@@ -99,7 +99,7 @@ const Footer = () => {
             </div>
             <p>
               Agricultural Farm Work Rentals is a pioneering initiative by
-              Quipbank Trust Limited, revolutionizing how farmers access modern
+              Agricultural Limited Farm Works, revolutionizing how farmers access modern
               farming equipment. Through cutting-edge technology, we offer a
               seamless, cost-effective platform that allows farmers to easily
               rent high-quality agricultural machinery.
@@ -116,6 +116,7 @@ const Footer = () => {
                     key={link.id}
                     to={link.to}
                     className="text-decoration-none text-white"
+                    onClick={() => window.scrollTo(0, 0)}
                   >
                     {link.content}{" "}
                   </Link>

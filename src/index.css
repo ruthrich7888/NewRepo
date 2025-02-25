@@ -148,10 +148,10 @@
   padding: 50px;
 }
 .contactus-categories {
-  width: 300px;
+  width: 350px;
   background-color: #033f03;
   color: white;
-  padding: 50px;
+  padding: 30px;
 }
 .content {
   display: flex;
@@ -240,7 +240,7 @@
 
 .rental-box {
   background: #f8f8f8;
-  padding: 5px;
+  padding: 15px;
   text-align: center;
   box-shadow: 2px 2px 10px rgba (0, 0, 0, 0.1);
 }
@@ -250,25 +250,20 @@
     text-align: center;
   }
   .rental-contai {
-    /* width: 100%; */
-    width: 78%;
-
+    width: 99%;
+    margin-bottom: -25px;
     justify-content: center;
-  }
-  .rental-box {
-    /* width: 100%; */
   }
 }
 @media (max-width: 768px) {
   .rental-box {
-    padding: 15px;
-    /* width: 100%; */
+    padding: 2px;
   }
 }
 
 .pricing {
   font-size: 15px;
-  margin-right: 90px;
+  margin: 10px;
   display: flex;
   justify-content: start;
   gap: 20px;
@@ -720,6 +715,7 @@ input[type="checkbox"] {
   color: #fff;
   padding: 20px 0;
 }
+
 .footer-content {
   display: flex;
   justify-content: space-between;

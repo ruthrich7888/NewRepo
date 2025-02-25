@@ -15,7 +15,7 @@ const EquipmentList = () => {
     <>
       <Layout>
         <div>
-          <div className="excavators-section ">
+          <div className="excavators-section">
             <div className="">
               <h2>EXCAVATORS</h2>
               <div className="overlay2 ">
@@ -50,8 +50,8 @@ const EquipmentList = () => {
                 </aside>
               </div>
 
-              <div className="col">
-                <main className="rental-contai">
+              <div className="col container ">
+                <main className="rental-contai ">
                   <div>
                     <div className="rental-box">
                       <div className="pricing">
@@ -190,7 +190,72 @@ const EquipmentList = () => {
                       </div>
                     </div>
                   </div>
+
                   <div>
+                    <div className="rental-box">
+                      <div className="pricing">
+                        <LuWatch className="luwatch" />
+                        <span> $250.00/Day</span>
+                        <span> $750.00/Day</span>
+                        <span> $2,200/Month</span>
+                      </div>
+
+                      <div className="line1 m-1">
+                        <Line
+                          length={"100%"}
+                          color="black"
+                          orientation="horizontal"
+                        />
+                      </div>
+                      <h6 className="ph6">Two Way Delivery: $43.00</h6>
+                      <div className="line1 m-1">
+                        <Line
+                          length={"100%"}
+                          color="black"
+                          orientation="horizontal"
+                        />
+                      </div>
+                      <div className="details1">
+                        <div className="">
+                          <div className="left1">
+                            <p>. Brand: BomagBW 120 AD-5</p>
+                            <p>. Manufacture Year: 2019</p>
+                            <p>. Operating Weight: 5,300lbs</p>
+                            <p>. Drum Width: 47 inches</p>
+                          </div>
+                          <div className="right1">
+                            <p>. Brand: Hamm HD 12 VV</p>
+                            <p>. Manufacture Year: 2020</p>
+                            <p>. Operating Weight: 6,500lbs</p>
+                            <p>. drum Width: 47 Inches</p>
+                          </div>
+                          <div className="trp-card">
+                            <div>
+                              <p className="total-p1">
+                                <h5 className="strong fw-bolder">
+                                  {" "}
+                                  Total Rental Price
+                                </h5>{" "}
+                                <h6 className="">Incl. Taxes</h6>
+                                <h5 className="strong fw-bolder"> $2,354.00</h5>
+                                <div className="line1 m-1">
+                                  <Line
+                                    length={"100%"}
+                                    color="black"
+                                    orientation="horizontal"
+                                  />
+                                </div>
+                              </p>
+                              <button className="r-btn">
+                                <h5>RESERVE</h5>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* <div>
                     <div className="rental-box">
                       <div className="pricing">
                         <LuWatch className="luwatch" />
@@ -254,7 +319,7 @@ const EquipmentList = () => {
                         <div></div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </main>
               </div>
             </div>
