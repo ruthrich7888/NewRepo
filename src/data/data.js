@@ -1,8 +1,8 @@
-import group2 from "../components/assets/group 2.png";
-import group5 from "../components/assets/group 5.png";
-import group4 from "../components/assets/group 4.png";
-import group1 from "../components/assets/group 1.png";
-import group6 from "../components/assets/group 6.png";
+// import group2 from "../components/assets/group 2.png";
+// import group5 from "../components/assets/group 5.png";
+// import group4 from "../components/assets/group 4.png";
+// import group1 from "../components/assets/group 1.png";
+// import group6 from "../components/assets/group 6.png";
 
 export const equipments = [
   {
