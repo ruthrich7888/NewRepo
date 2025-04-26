@@ -40,12 +40,12 @@ const Hero = () => {
         </div>
       </div>
       <div>
-        <div className="p-4 mt-5">
-          <p className="d-flex justify-content-center pt-5">
+        <div className="p-3 mt-5 ">
+          <p className="d-flex  justify-content-center pt-5">
             We Promise To Find You The Right Equipment.
           </p>
           <h2
-            className="fw-bold d-flex justify-content-center "
+            className="fw-bold d-flex justify-content-center"
             id="categories1"
           >
             Browse Machinery Categories
@@ -56,7 +56,11 @@ const Hero = () => {
             return (
               <div className="category-item" key={equipment._id}>
                 <img src={equipment.Image} alt={equipment.title} />
+<<<<<<< HEAD
                 <h5> {equipment.title} </h5>
+=======
+                <h5 className=""> {equipment.title} </h5>
+>>>>>>> 62eda0b515fca9f6115996beeaaa35712729bc7d
               </div>
             );
           })}

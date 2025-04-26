@@ -6,7 +6,7 @@ import ActionBtn from "../ActionBtn";
 
 const WeHelp = () => {
   return (
-    <div className="footer-top-bar  p-lg-4 p-3 text-dark">
+    <div className="footer-top-bar   p-lg-4 p-3 text-dark">
       <div className="container">
         <div className="footer-content">
           <div className="headline">
@@ -22,7 +22,7 @@ const WeHelp = () => {
             <span className="icon">
               <LuPhoneCall />
             </span>
-            <span className="text">Get Quick Support +1 409 422 0000</span>
+            <span className="text">Get Quick Support +1 352 255 3979</span>
           </div>
           <div className="">
             <Link to="/contact-us">

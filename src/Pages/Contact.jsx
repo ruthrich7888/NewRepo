@@ -34,7 +34,7 @@ const Contact = () => {
           <div className="row">
             <div className="col">
               <aside>
-                <aside className="contactus-categories m-5">
+                <aside className="contactus-categories m-4">
                   <h3>Contact Details </h3>
                   <div className="line m-1">
                     <Line length={140} color="white" orientation="horizontal" />
@@ -51,7 +51,7 @@ const Contact = () => {
                       <LuPhoneCall />
                     </span>
                     <h6>For Rental Support</h6>
-                    <h6>+1 800 567 0000/ +1 800 909 0000 </h6>
+                    <h6>+1 352 255 3979 / +1 352 255 3979 </h6>
                   </div>
                   <div className="line m-1">
                     <Line length={170} color="white" orientation="horizontal" />
@@ -67,7 +67,13 @@ const Contact = () => {
                   <div>
                     <CiMail />
                     <h6>Send Us Email</h6>
-                    <h6>info@agricfarmworklsllc.com</h6>
+                    <a
+                      href=" 
+                    mailto:info@agriculturalfarmsworksrentalllc.com"
+                      className="text-decoration-none text-white"
+                    >
+                      info@agriculturalfarmsworksrentalllc.com
+                    </a>
                   </div>
                 </aside>
               </aside>
@@ -83,7 +89,12 @@ const Contact = () => {
               </p>
               <div className="contact-form">
                 <form action="submit.php" method="POST">
-                  <input type="text" name="name" placeholder="name..........*" required />
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="name..........*"
+                    required
+                  />
                   <input
                     type="email"
                     name="email"
