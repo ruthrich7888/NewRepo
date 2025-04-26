@@ -234,7 +234,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
-  width: 75%;
+  width: 10%;
 }
 
 .rental-box {
@@ -279,7 +279,7 @@
   display: flex;
   justify-content: space-between;
   text-align: left;
-  padding: 10px 0;
+  padding: 10px 5px;
 }
 .details1.left,
 .details1.right {
@@ -472,6 +472,9 @@ input[type="checkbox"] {
   .search-input {
     width: 90%;
     margin-bottom: 10px;
+  }
+  .line1 {
+    width: 60%;
   }
 }
 .hero-section {

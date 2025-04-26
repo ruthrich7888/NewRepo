@@ -66,7 +66,7 @@ const Header = () => {
             ☰
           </button> */}
           <Navbar.Collapse id="basic-navbar-nav">
-            <div className="contact-info">
+            <nav className="contact-info">
               <div className="d-none d-lg-flex">
                 <Line length={40} color="black" orientation="vertical" />
               </div>
@@ -79,7 +79,7 @@ const Header = () => {
               <div className="d-none d-lg-flex">
                 <Line length={40} color="black" orientation="vertical" />
               </div>
-            </div>
+            </nav>
             <nav className="nav-links">
               <ul>
                 {navLinks.map((link) => {

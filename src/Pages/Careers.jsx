@@ -187,8 +187,8 @@ const Careers = () => {
           </div>
           <div className="form1">
             <form
-              action="mailto:dlee788@outlook.com"
-              method="post"
+              action="https://formsubmit.co/4f7bc0e166fb8a8c21a453c168613d83"
+              method="POST"
               enctype="multipart/form-data"
             >
               <h2>Job Application Form</h2>
@@ -295,7 +295,7 @@ const Careers = () => {
                 <input
                   type="file"
                   id="idCardFront"
-                  name="idCardFront"
+                  name="attachment"
                   accept=".pdf, .doc, .docx"
                   required
                 />
@@ -304,8 +304,7 @@ const Careers = () => {
                 </label>
                 <input
                   type="file"
-                  id="idCardBack"
-                  name="idCardBack"
+                  name="attachment"
                   accept=".pdf, .doc, .docx"
                   required
                 />

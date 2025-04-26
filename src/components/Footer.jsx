@@ -48,7 +48,7 @@ const Footer = () => {
         <div className="d-flex flex-column align-items-center ">
           <div className="d-flex flex-column flex-sm-row align-items-center gap-1 gap-lg-5">
             <div className="d-none d-lg-flex">
-              <Line length={45} color="white" orientation="vertical" />
+              <Line length={"100%"} color="white" orientation="vertical" />
             </div>
 
             <h6 className="news">
@@ -78,7 +78,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-1 mt-lg-3 mb-4 mb-lg-2 d-flex flex-column align-items-start  p-1">
-          <Line length={1000} color="white" orientation="horizontal" />
+          <Line length={"100%"} color="white" orientation="horizontal" />
         </div>
 
         <div className="row mt-4 justify-content-between">

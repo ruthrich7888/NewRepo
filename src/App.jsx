@@ -12,6 +12,7 @@ import Services from "./Pages/Services";
 import Careers from "./Pages/Careers";
 import Errorpage from "./Pages/Errorpage";
 import { IoReturnUpBackSharp } from "react-icons/io5";
+import Head from "./components/Head";
 
 const App = () => {
   function ScrollToHash() {
@@ -28,6 +29,7 @@ const App = () => {
   }
   return (
     <BrowserRouter>
+      {/* <Head /> */}
       <ScrollToHash />
       <Routes>
         <Route path="/" element={<Homepage />} />

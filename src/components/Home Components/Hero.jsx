@@ -54,8 +54,8 @@ const Hero = () => {
         <div className="categories-container">
           {equipments.map((equipment) => {
             return (
-              <div className="category-item" key={equipment.id}>
-                <img src={equipment.Image} alt=" {item.title} " />
+              <div className="category-item" key={equipment._id}>
+                <img src={equipment.Image} alt={equipment.title} />
                 <h5> {equipment.title} </h5>
               </div>
             );
