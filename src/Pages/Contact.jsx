@@ -51,9 +51,9 @@ const Contact = () => {
                       <LuPhoneCall />
                     </span>
                     <h6>For Rental Support</h6>
-                    <h6>+1 352 255 3979 / +1 352 255 3979 </h6>
+                    <h6>+1 800 900 0000 </h6>
                   </div>
-                  <div className="line m-1">
+                  <div className="line m-1"> 
                     <Line length={170} color="white" orientation="horizontal" />
                   </div>
                   <div>
