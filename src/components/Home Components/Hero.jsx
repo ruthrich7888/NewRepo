@@ -56,11 +56,7 @@ const Hero = () => {
             return (
               <div className="category-item" key={equipment._id}>
                 <img src={equipment.Image} alt={equipment.title} />
-<<<<<<< HEAD
-                <h5> {equipment.title} </h5>
-=======
                 <h5 className=""> {equipment.title} </h5>
->>>>>>> 62eda0b515fca9f6115996beeaaa35712729bc7d
               </div>
             );
           })}

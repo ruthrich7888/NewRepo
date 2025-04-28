@@ -1,40 +1,17 @@
-// import group2 from "../components/assets/group 2.png";
-// import group5 from "../components/assets/group 5.png";
-// import group4 from "../components/assets/group 4.png";
-// import group1 from "../components/assets/group 1.png";
-// import group6 from "../components/assets/group 6.png";
+import group2 from "../components/assets/group 2.png";
+import group5 from "../components/assets/group 5.png";
+import group4 from "../components/assets/group 4.png";
+import group1 from "../components/assets/group 1.png";
+import group6 from "../components/assets/group 6.png";
+import group3 from "../components/assets/group 3.png";
 
 export const equipments = [
-  {
-    _id: 1,
-    title: "EXCAVATORS",
-    Image: "../src/components/assets/group 2.png",
-  },
-  {
-    _id: 2,
-    title: "SCISSOR LIFT",
-    Image: "../src/components/assets/group 5.png",
-  },
-  {
-    _id: 3,
-    title: "BOOMLIFT",
-    Image: "../src/components/assets/group 4.png",
-  },
-  {
-    _id: 4,
-    title: "FORKLIFT",
-    Image: "../src/components/assets/group 1.png",
-  },
-  {
-    _id: 5,
-    title: "COMPACTION",
-    Image: "../src/components/assets/group 6.png",
-  },
-  {
-    _id: 6,
-    title: "ROLLER",
-    Image: "../src/components/assets/group 5.png",
-  },
+  { _id: 1, title: "EXCAVATORS", Image: group2 },
+  { _id: 2, title: "SCISSOR LIFT", Image: group5 },
+  { _id: 3, title: "BOOMLIFT", Image: group4 },
+  { _id: 4, title: "FORKLIFT", Image: group1 },
+  { _id: 5, title: "COMPACTION", Image: group6 },
+  { _id: 6, title: "ROLLER", Image: group3 },
 ];
 
 export const links = [

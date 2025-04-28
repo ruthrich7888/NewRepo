@@ -50,81 +50,18 @@ const EquipmentList = () => {
                 </aside>
               </div>
 
-<<<<<<< HEAD
-              <div className="col">
-                <main className="rental-container border border-3 border-danger">
-                  <div className="rental-box">
-                    <div className="pricing">
-                      <LuWatch className="luwatch" />
-=======
               <div className="col container ">
                 <main className="rental-contai ">
                   <div>
                     <div className="rental-box">
                       <div className="pricing">
                         <LuWatch className="luwatch" />
->>>>>>> 62eda0b515fca9f6115996beeaaa35712729bc7d
 
                         <span> $500/Day</span>
                         <span> $2,500/Day</span>
                         <span> $7,500/Month</span>
                       </div>
 
-<<<<<<< HEAD
-                    <div className="line1 m-1">
-                      <Line
-                        length={"100%"}
-                        color="black"
-                        orientation="horizontal"
-                      />
-                    </div>
-                    <h6 className="ph6">Two Way Delivery: $58.00</h6>
-                    <div className="line1 m-1">
-                      <Line
-                        length={"100%"}
-                        color="black"
-                        orientation="horizontal"
-                      />
-                    </div>
-                    <div className="details1">
-                      <div className="d-block d-md-flex">
-                        <div>
-                          <div className="left1">
-                            <p>. Brand: Caterpillar 320 GC</p>
-                            <p>. Manufacture Year: 2021</p>
-                            <p>. Digging Depth: 22 feet</p>
-                            <p>. operating Weight: 22,500lbs</p>
-                          </div>
-                          <div className="right1">
-                            <p>. Brand: Genie GS-1930</p>
-                            <p>. Manufacture Year: 2019</p>
-                            <p>. Platform Height: 19 feet</p>
-                            <p>. Lift Capacity: 500lbs</p>
-                          </div>
-                        </div>
-                        <div>
-                          <div className="trp-card">
-                            <div className="">
-                              <p className="total-p1">
-                                <h5 className="strong fw-bolder">
-                                  {" "}
-                                  Total Rental Price
-                                </h5>{" "}
-                                <h6 className="">Incl. Taxes</h6>
-                                <h5 className="strong fw-bolder"> $8,025.00</h5>
-                                <div className="line m-2">
-                                  <Line
-                                    length={"100%"}
-                                    color="black"
-                                    orientation="horizontal"
-                                  />
-                                </div>
-                              </p>
-                              <button className="r-btn">
-                                <h5>RESERVE</h5>
-                              </button>
-                            </div>
-=======
                       <div className="line1 m-1">
                         <Line
                           length={"100%"}
@@ -182,7 +119,6 @@ const EquipmentList = () => {
                                 </button>
                               </div>
                             </div>
->>>>>>> 62eda0b515fca9f6115996beeaaa35712729bc7d
                           </div>
                         </div>
                       </div>
@@ -236,15 +172,9 @@ const EquipmentList = () => {
                                 </h5>{" "}
                                 <h6 className="">Incl. Taxes</h6>
                                 <h5 className="strong fw-bolder"> $3,745.00</h5>
-<<<<<<< HEAD
-                                <div className="line m-2">
-                                  <Line
-                                    length={145}
-=======
                                 <div className="line m-1">
                                   <Line
                                     length={"100%"}
->>>>>>> 62eda0b515fca9f6115996beeaaa35712729bc7d
                                     color="black"
                                     orientation="horizontal"
                                   />
@@ -286,11 +216,7 @@ const EquipmentList = () => {
                         />
                       </div>
                       <div className="details1">
-<<<<<<< HEAD
-                        <div>
-=======
                         <div className="">
->>>>>>> 62eda0b515fca9f6115996beeaaa35712729bc7d
                           <div className="left1">
                             <p>. Brand: BomagBW 120 AD-5</p>
                             <p>. Manufacture Year: 2019</p>
@@ -312,15 +238,9 @@ const EquipmentList = () => {
                                 </h5>{" "}
                                 <h6 className="">Incl. Taxes</h6>
                                 <h5 className="strong fw-bolder"> $2,354.00</h5>
-<<<<<<< HEAD
-                                <div className="line m-2">
-                                  <Line
-                                    length={145}
-=======
                                 <div className="line1 m-1">
                                   <Line
                                     length={"100%"}
->>>>>>> 62eda0b515fca9f6115996beeaaa35712729bc7d
                                     color="black"
                                     orientation="horizontal"
                                   />

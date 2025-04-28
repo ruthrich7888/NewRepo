@@ -1,5 +1,5 @@
 import React from "react";
-import { Analytics } from "@vercel/analytics/react";
+// import { Analytics } from "@vercel/analytics/react";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -41,7 +41,7 @@ const App = () => {
         <Route path="/careers" element={<Careers />} />
         <Route path="/errorpage" element={<Errorpage />} />
       </Routes>
-      <Analytics />
+      {/* <Analytics /> */}
     </BrowserRouter>
   );
 };
