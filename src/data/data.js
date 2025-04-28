@@ -1,9 +1,9 @@
-import group2 from "../components/assets/group 2.png";
-import group5 from "../components/assets/group 5.png";
-import group4 from "../components/assets/group 4.png";
-import group1 from "../components/assets/group 1.png";
-import group6 from "../components/assets/group 6.png";
-import group3 from "../components/assets/group 3.png";
+import group2 from "../components/assets/group2.png";
+import group5 from "../components/assets/group5.png";
+import group4 from "../components/assets/group4.png";
+import group1 from "../components/assets/group1.png";
+import group6 from "../components/assets/group6.png";
+import group3 from "../components/assets/group3.png";
 export const equipments = [
   { _id: 1, title: "EXCAVATORS", Image: group2 },
   { _id: 2, title: "SCISSOR LIFT", Image: group5 },

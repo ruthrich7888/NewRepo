@@ -41,7 +41,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <GrLocation />
-                    <h6>7430 Redwing Rd. Groveland, FL 34736</h6>
+                    <h6>7430 Redwing Rd. Groveland, FL 34736.</h6>
                   </div>
                   <div className="line m-1">
                     <Line length={170} color="white" orientation="horizontal" />
