@@ -824,3 +824,65 @@ input[type="checkbox"] {
 .spanA {
   color: #ffb800;
 }
+
+/* // */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 55px;
+  height: 55px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 28px;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  background-color: #20b358;
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  .whatsapp-float {
+    display: none;
+  }
+}
+
+/* @media (max-width: 991.98px) {
+  .whatsapp-float {
+    display: none;
+  }
+} */
+
+/* // */
+.back-to-top {
+  position: fixed;
+  bottom: 20px; /* Adjust if you have WhatsApp at 20px */
+  right: 20px;
+  width: 45px;
+  height: 45px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  z-index: 999;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.back-to-top:hover {
+  background-color: #3a3939;
+}

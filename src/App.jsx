@@ -14,6 +14,7 @@ import Careers from "./Pages/Careers";
 import Errorpage from "./Pages/Errorpage";
 import { IoReturnUpBackSharp } from "react-icons/io5";
 import Head from "./components/Head";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const App = () => {
   function ScrollToHash() {

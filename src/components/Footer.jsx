@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import ActionBtn from "./ActionBtn";
 import Line from "./Line";
-
+import WhatsAppChatButton from "./WhatsAppChatButton";
+import BackToTopButton from "./BackToTopButton";
 const Footer = () => {
   const [email, setEmail] = useState("");
   const handleSubscribe = () => {
@@ -123,9 +124,14 @@ const Footer = () => {
                 );
               })}
             </div>
+            <>
+              <WhatsAppChatButton />
+              <BackToTopButton />
+            </>
           </div>
         </div>
       </div>
+
       <div className="terms-container">
         <small>
           &copy; <span className="spanA"> 2024 </span>{" "}
