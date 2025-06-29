@@ -51,9 +51,9 @@ const Contact = () => {
                       <LuPhoneCall />
                     </span>
                     <h6>For Rental Support</h6>
-                    <h6>+1 800 900 0000 </h6>
+                    <h6>+1 (667) 439 3624 </h6>
                   </div>
-                  <div className="line m-1"> 
+                  <div className="line m-1">
                     <Line length={170} color="white" orientation="horizontal" />
                   </div>
                   <div>
@@ -83,11 +83,10 @@ const Contact = () => {
               <div className="line">
                 <Line length={300} color="black" orientation="horizontal" />
               </div>
-              <p>
-                Your Email Address Will Not Be Published. Required Fields Are
-                Marked With *
-              </p>
-              <div className="contact-form">
+              <p>Your Email Address Will Not Be Published.</p>
+              {/* <p> Required Fields Are Marked With *</p> */}
+
+              {/* <div className="contact-form">
                 <form action="submit.php" method="POST">
                   <input
                     type="text"
@@ -115,7 +114,7 @@ const Contact = () => {
                   ></textarea>
                   <button type="submit"> SEND MESSAGE </button>
                 </form>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="map">

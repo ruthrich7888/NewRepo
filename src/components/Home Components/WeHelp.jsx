@@ -22,7 +22,7 @@ const WeHelp = () => {
             <span className="icon">
               <LuPhoneCall />
             </span>
-            <span className="text">Get Quick Support +1 667 439 3624 / </span>
+            <span className="text">Get Quick Support +1 667 439 3624  </span>
           </div>
           <div className="">
             <Link to="/contact-us">
