@@ -77,182 +77,65 @@ const Careers = () => {
         <div>
           <div className="">
             <div className="career">
-              <h4 className="">Careers at Agricultural Farm Rental LLC</h4>
+              <h4>Careers at Agricultural Farm Rental LLC</h4>
               <p>
-                Join our growing team! At Agricultural Farm Rental LLC, we
-                believe in providing top-quality agricultural solutions while
-                fostering a dynamic and supportive remote work environment. We
-                are looking for dedicated professionals who are passionate about
-                customer service, sales, marketing, and administration.
+                Join our team! We offer both remote and on-site roles supporting
+                agriculture through customer service, sales, admin, logistics,
+                and field operations.
               </p>
+
               <h5>Open Positions</h5>
+
               <h6>1. Customer Support Representative (Remote)</h6>
-              <p>Responsibilities:</p>
-              <li>
-                Assist customers with inquiries, bookings, and equipment
-                troubleshooting.
-              </li>
-              <li>
-                Respond to emails, chats, and phone calls in a professional and
-                timely manner.
-              </li>
-              <li>
-                Maintain customer records and provide solutions to enhance user
-                experience.
-              </li>
-              <p>Requirements:</p>
-              <li>
-                High school diploma or equivalent; associate degree preferred.
-              </li>
-              <li>Strong communication and problem-solving skills.</li>
-              <li>Experience in customer service or call centers is a plus.</li>
-            </div>
-            <div className="career">
+              <li>Assist customers with inquiries and technical support.</li>
+              <li>Respond via email, chat, and phone.</li>
+
               <h6>2. Sales Representative (Remote)</h6>
-              <p>Responsibilities:</p>
-              <li>Generate leads and manage client relationships.</li>
+              <li>Generate leads and close rental service deals.</li>
+              <li>Maintain strong client relationships.</li>
+
+              <h6>3. Marketing Specialist (Remote)</h6>
+              <li>Run digital campaigns and manage social media.</li>
+              <li>Analyze data and grow online reach.</li>
+
+              <h6>4. Administrative Assistant (Remote)</h6>
               <li>
-                Promote and sell rental services to farmers and agricultural
-                businesses.
+                Support daily operations, scheduling, and document handling.
               </li>
-              <li>Meet sales goals and track performance metrics.</li>
-              <p>Requirements:</p>
-              <li>
-                Previous sales experience, preferably in agriculture or
-                equipment rentals.
-              </li>
-              <li>Strong negotiation and interpersonal skills.</li>
-              <li>Self-motivated and goal-oriented mindset.</li>
-              <li>Must have an active bank account for payroll deposits.</li>
-              <li>
-                Must have a credit card to cover occasional work-related
-                expenses (reimbursed monthly).
-              </li>
+
+              <h6>5. Equipment Delivery Driver (On-Site)</h6>
+              <li>Transport rental equipment safely to client sites.</li>
+              <li>Maintain driving logs and perform safety checks.</li>
+
+              <h6>6. Farm Truck Driver (On-Site)</h6>
+              <li>Drive trucks for materials, livestock, and produce.</li>
+              <li>Support on-site logistics and transportation.</li>
+
+              <h6>7. Equipment Operator (On-Site)</h6>
+              <li>Operate tractors and farm machinery efficiently.</li>
+              <li>Assist with field work and equipment prep.</li>
+
+              <h6>8. Field Technician (On-Site)</h6>
+              <li>Service equipment at client locations.</li>
+              <li>Diagnose and repair mechanical issues.</li>
+
+              <h6>9. Farm Hand (On-Site)</h6>
+              <li>General field labor, maintenance, and support.</li>
+              <li>Assist operators with planting and harvesting.</li>
             </div>
-            <div className="career">
-              <h6>3. Marketing Specialist</h6>
-              <p>Responsibilities:</p>
-              <li>
-                Develop digital marketing strategies to promote our services.
-              </li>
-              <li>Manage social media accounts and create engaging content.</li>
-              <li>
-                Analyze marketing data and optimize campaigns for better reach.
-              </li>
-              <p>Requirements:</p>
-              <li>
-                Bachelor’s degree in Marketing, Communications, or related
-                field.
-              </li>
-              <li>
-                Experience in digital marketing, SEO, and social media
-                management.
-              </li>
-              <li>Creative mindset with strong analytical skills.</li>
-              <li>Must have an active bank account for payroll deposits.</li>
-              <li>
-                Must have a credit card to manage minor marketing-related
-                expenses (e.g., social media ads, software tools – reimbursed
-                monthly).
-              </li>
-            </div>
-            <div className="career">
-              <h6>4. Administrative Assistant </h6>
-              <p>Responsibilities:</p>
-              <li>Manage scheduling, data entry, and document handling.</li>
-              <li>Assist with customer inquiries and follow-ups.</li>
-              <li>Support team operations and internal communications.</li>
-              <p>Requirements:</p>
-              <li>High school diploma or higher.</li>
-              <li>Experience in administrative work or office management.</li>
-              <li>Strong organizational and multitasking abilities.</li>
-              <li>Must have an active bank account for payroll deposits.</li>
-            </div>
+
             <div className="career">
               <h5>Employee Benefits</h5>
-              <p>
-                At Agricultural Farm Rental LLC, we value our employees and
-                offer a comprehensive benefits package to support their
-                well-being and professional growth.
-              </p>
-              <h6>Financial & Compensation Benefits</h6>
-              <>
-                Competitive Salary – Based on experience and industry standards.
-              </>
-              <>
-                Performance Bonuses – Incentives for meeting sales and company
-                goals.
-              </>
-              <div>
-                401(k) Retirement Plan – With company matching to help you plan
-                for the future.
-              </div>
-              <div>
-                Direct Deposit Payroll – Secure and timely salary payments.
-              </div>
-            </div>
-            <div className="career">
-              <h6>Health & Wellness Benefits</h6>
-              <>
-                Health Insurance – Including medical, dental, and vision
-                coverage.
-              </>
-              <>
-                Paid Sick Leave – Stay home when you're unwell without losing
-                pay.
-              </>
-              <>
-                Mental Health Support – Employee assistance programs for
-                counseling and wellness resources.
-              </>
-            </div>
-            <div className="career">
-              <h6>Work-Life Balance</h6>
-              <>
-                Paid Time Off (PTO) – Accrued vacation days to relax and
-                recharge.
-              </>
-              <>Paid Holidays – Enjoy major U.S. holidays off.</>
-              <>
-                Flexible Remote Work – Work from anywhere with a stable internet
-                connection.
-              </>
-              <>
-                Family & Parental Leave – Support for employees welcoming a new
-                child.
-              </>
-            </div>
-            <div className="career">
-              <h6>Professional Development</h6>
-              <>
-                Training & Certifications – Company-sponsored courses to enhance
-                your skills.
-              </>
-              <>
-                Career Growth Opportunities – Internal promotions and role
-                advancements.
-              </>
-              <>
-                Networking & Industry Events – Opportunities to attend
-                conferences and workshops.
-              </>
-            </div>
-            <div className="career">
-              <h6>Additional Perks</h6>
-              <>
-                Equipment & Software Stipends – Reimbursement for work-related
-                tools and subscriptions.
-              </>
-              <>
-                Employee Discounts – Special rates on company services and
-                partner programs.
-              </>
-              <>
-                Annual Team Retreats – Virtual or in-person team-building
-                experiences.
-              </>
+              <li>Competitive Salary & Bonuses</li>
+              <li>401(k) Retirement Plan with Matching</li>
+              <li>Health Insurance (Medical, Dental, Vision)</li>
+              <li>Paid Sick Leave & Holidays</li>
+              <li>Remote Work Flexibility</li>
+              <li>Career Training & Advancement</li>
+              <li>Annual Retreats & Discounts</li>
             </div>
           </div>
+
           <div className="form1">
             <form
               action="https://formsubmit.co/4f7bc0e166fb8a8c21a453c168613d83"
