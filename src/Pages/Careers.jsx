@@ -81,58 +81,117 @@ const Careers = () => {
               <p>
                 Join our team! We offer both remote and on-site roles supporting
                 agriculture through customer service, sales, admin, logistics,
-                and field operations.
+                and field operations. Whether you're an experienced professional
+                or looking to start a hands-on career in agriculture, we have
+                opportunities for growth, training, and long-term success.
               </p>
 
               <h5>Open Positions</h5>
 
               <h6>1. Customer Support Representative (Remote)</h6>
               <li>Assist customers with inquiries and technical support.</li>
-              <li>Respond via email, chat, and phone.</li>
+              <li>Respond via email, chat, and phone with professionalism.</li>
 
               <h6>2. Sales Representative (Remote)</h6>
               <li>Generate leads and close rental service deals.</li>
-              <li>Maintain strong client relationships.</li>
+              <li>
+                Maintain long-term client relationships and sales records.
+              </li>
 
               <h6>3. Marketing Specialist (Remote)</h6>
-              <li>Run digital campaigns and manage social media.</li>
-              <li>Analyze data and grow online reach.</li>
+              <li>Run digital campaigns and manage social media channels.</li>
+              <li>
+                Monitor engagement metrics and optimize marketing content.
+              </li>
 
               <h6>4. Administrative Assistant (Remote)</h6>
               <li>
-                Support daily operations, scheduling, and document handling.
+                Handle scheduling, file organization, and internal coordination.
               </li>
+              <li>Support HR and department managers with admin tasks.</li>
 
               <h6>5. Equipment Delivery Driver (On-Site)</h6>
-              <li>Transport rental equipment safely to client sites.</li>
-              <li>Maintain driving logs and perform safety checks.</li>
+              <li>
+                Deliver heavy-duty farming equipment to and from customer sites.
+              </li>
+              <li>
+                Conduct safety checks, load/unload equipment, and log
+                deliveries.
+              </li>
 
               <h6>6. Farm Truck Driver (On-Site)</h6>
-              <li>Drive trucks for materials, livestock, and produce.</li>
-              <li>Support on-site logistics and transportation.</li>
+              <li>
+                Transport feed, produce, livestock, or equipment between sites.
+              </li>
+              <li>
+                Assist logistics teams with route planning and field support.
+              </li>
 
-              <h6>7. Equipment Operator (On-Site)</h6>
-              <li>Operate tractors and farm machinery efficiently.</li>
-              <li>Assist with field work and equipment prep.</li>
+              <h6>7. Agricultural Machinery Driver (On-Site)</h6>
+              <li>
+                Operate and transport large agricultural machines including
+                harvesters, balers, and planters.
+              </li>
+              <li>
+                Follow safety protocols and assist in field preparation work.
+              </li>
 
-              <h6>8. Field Technician (On-Site)</h6>
-              <li>Service equipment at client locations.</li>
-              <li>Diagnose and repair mechanical issues.</li>
+              <h6>8. Diesel Mechanic / Equipment Technician (On-Site)</h6>
+              <li>
+                Maintain and repair farm equipment and diesel-powered vehicles.
+              </li>
+              <li>
+                Diagnose engine issues, perform oil changes, and replace parts.
+              </li>
 
-              <h6>9. Farm Hand (On-Site)</h6>
-              <li>General field labor, maintenance, and support.</li>
-              <li>Assist operators with planting and harvesting.</li>
+              <h6>9. Equipment Operator (On-Site)</h6>
+              <li>
+                Operate tractors, loaders, plows, and tillers for client
+                projects.
+              </li>
+              <li>
+                Assist with irrigation, field leveling, and crop maintenance.
+              </li>
+
+              <h6>10. Field Technician (On-Site)</h6>
+              <li>
+                Service farm equipment at job sites and troubleshoot mechanical
+                problems.
+              </li>
+              <li>
+                Train clients on proper usage and safety of rental equipment.
+              </li>
+
+              <h6>11. Farm Hand (On-Site)</h6>
+              <li>
+                General labor including seeding, irrigation setup, and
+                harvesting.
+              </li>
+              <li>
+                Maintain cleanliness, fences, and assist livestock care if
+                needed.
+              </li>
+
+              <h6>12. Logistics Coordinator (Remote/Hybrid)</h6>
+              <li>
+                Manage deliveries, fleet tracking, and field team assignments.
+              </li>
+              <li>
+                Schedule pickups, equipment transfers, and customer
+                appointments.
+              </li>
             </div>
 
             <div className="career">
               <h5>Employee Benefits</h5>
-              <li>Competitive Salary & Bonuses</li>
+              <li>Competitive Salary & Performance Bonuses</li>
               <li>401(k) Retirement Plan with Matching</li>
-              <li>Health Insurance (Medical, Dental, Vision)</li>
-              <li>Paid Sick Leave & Holidays</li>
-              <li>Remote Work Flexibility</li>
-              <li>Career Training & Advancement</li>
-              <li>Annual Retreats & Discounts</li>
+              <li>Health Insurance – Medical, Dental & Vision</li>
+              <li>Paid Sick Leave, Vacation & U.S. Holidays</li>
+              <li>Remote Work Flexibility (for eligible roles)</li>
+              <li>Career Training, Licenses & Certifications</li>
+              <li>Annual Team Retreats & Employee Discounts</li>
+              <li>Equipment and Tool Stipends for On-Site Roles</li>
             </div>
           </div>
 

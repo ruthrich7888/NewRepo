@@ -69,7 +69,7 @@ const Contact = () => {
                     <h6>Send Us Email</h6>
                     <a
                       href=" 
-                    mailto:info@agriculturalfarmsworksrentalllc.com"
+                    mailto:agriculturalfarmworksrentalllc@outlook.com"
                       className="text-decoration-none text-white"
                     >
                       info@agriculturalfarmsworksrentalllc.com
