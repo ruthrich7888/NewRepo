@@ -349,7 +349,7 @@ const Careers = () => {
                   By submitting this application, I certify that all information
                   provided is true and complete. I understand that any false
                   information may result in disqualification or termination if
-                  hired.
+                  hired..
                 </p>
                 <label for="signature">Signature (Type Name):</label>
                 <input type="text" id="signature" name="signature" required />
