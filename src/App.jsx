@@ -14,9 +14,16 @@ import Careers from "./Pages/Careers";
 import Errorpage from "./Pages/Errorpage";
 import { IoReturnUpBackSharp } from "react-icons/io5";
 import Head from "./components/Head";
+import Maintenance from "./components/Maintenance";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const App = () => {
+  const isMaintenance = import.meta.env.VITE_MAINTENANCE === 'true';
+
+  if (isMaintenance) {
+    return <Maintenance />;
+  }
+
   function ScrollToHash() {
     const { hash } = useLocation();
     useEffect(() => {
