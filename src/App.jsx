@@ -1,50 +1,65 @@
-import { useEffect } from "react";
-import React from "react";
-// import { Analytics } from "@vercel/analytics/react";
-import { useLocation } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Homepage from "./Pages/Homepage";
-import AboutUs from "./Pages/AboutUs";
-import Contact from "./Pages/Contact";
-import EquipmentList from "./Pages/EquipmentList";
-import Services from "./Pages/Services";
-import Careers from "./Pages/Careers";
-import Errorpage from "./Pages/Errorpage";
-import { IoReturnUpBackSharp } from "react-icons/io5";
-import Head from "./components/Head";
-import "@fortawesome/fontawesome-free/css/all.min.css";
+// import { useEffect } from "react";
+// import React from "react";
+// // import { Analytics } from "@vercel/analytics/react";
+// import { useLocation } from "react-router-dom";
+// import "bootstrap/dist/css/bootstrap.min.css";
+// import "./App.css";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import Homepage from "./Pages/Homepage";
+// import AboutUs from "./Pages/AboutUs";
+// import Contact from "./Pages/Contact";
+// import EquipmentList from "./Pages/EquipmentList";
+// import Services from "./Pages/Services";
+// import Careers from "./Pages/Careers";
+// import Errorpage from "./Pages/Errorpage";
+// import { IoReturnUpBackSharp } from "react-icons/io5";
+// import Head from "./components/Head";
+// import "@fortawesome/fontawesome-free/css/all.min.css";
 
-const App = () => {
-  function ScrollToHash() {
-    const { hash } = useLocation();
-    useEffect(() => {
-      if (hash) {
-        const element = document.querySelector(hash);
-        if (element) {
-          element.scrollIntoView({ behavior: "smooth" });
+// const App = () => {
+//   function ScrollToHash() {
+//     const { hash } = useLocation();
+//     useEffect(() => {
+//       if (hash) {
+//         const element = document.querySelector(hash);
+//         if (element) {
+//           element.scrollIntoView({ behavior: "smooth" });
+//         }
+//       }
+//     }, [hash]);
+//     return null;
+//   }
+//   return (
+//     <BrowserRouter>
+//       {/* <Head /> */}
+//       <ScrollToHash />
+//       <Routes>
+//         <Route path="/" element={<Homepage />} />
+//         <Route path="/about-us" element={<AboutUs />} />
+//         <Route path="/contact" element={<Contact />} />
+//         <Route path="/equipment-list" element={<EquipmentList />} />
+//         <Route path="/services" element={<Services />} />
+//         <Route path="/careers" element={<Careers />} />
+//         <Route path="/errorpage" element={<Errorpage />} />
+//       </Routes>
+//       {/* <Analytics /> */}
+//     </BrowserRouter>
+//   );
+// };
+
+// export default App;
+
+export default function App() {
+  return (
+    <div
+      style={
+        {
+          /* your maintenance styles */
         }
       }
-    }, [hash]);
-    return null;
-  }
-  return (
-    <BrowserRouter>
-      {/* <Head /> */}
-      <ScrollToHash />
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/equipment-list" element={<EquipmentList />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/careers" element={<Careers />} />
-        <Route path="/errorpage" element={<Errorpage />} />
-      </Routes>
-      {/* <Analytics /> */}
-    </BrowserRouter>
+    >
+      <h1>🚧 Site Under Maintenance 🚧</h1>
+      <p>Our website is temporarily unavailable. We’ll be back online soon.</p>
+    </div>
   );
-};
-
-export default App;
+}
