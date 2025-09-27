@@ -1,0 +1,4 @@
+- [ ] Fix .top-section width from 105% to 100% to prevent horizontal overflow
+- [ ] Add overflow-x: hidden to body
+- [ ] Add scroll-behavior: smooth to html
+- [ ] Test on mobile viewport

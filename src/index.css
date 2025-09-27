@@ -4,6 +4,14 @@
   --tet-color: #ffffff;
   --tett-color: #111111;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
 .container {
   width: 90%;
   max-width: 1200px;
@@ -528,7 +536,7 @@ input[type="checkbox"] {
   align-items: center;
   justify-content: space-between;
   padding: 2rem;
-  width: 105%;
+  width: 100%;
   min-height: 500px;
 }
 .content1 {
@@ -885,4 +893,36 @@ input[type="checkbox"] {
 
 .back-to-top:hover {
   background-color: #3a3939;
+}
+
+.search-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1001;
+  max-width: 500px;
+  width: 90%;
+}
+
+.results-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.result-item {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.result-item img {
+  width: 50px;
+  height: 50px;
 }

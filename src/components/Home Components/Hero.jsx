@@ -1,7 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 import { equipments } from "../../data/data";
 
 const Hero = () => {
+  const [searchTerm, setSearchTerm] = useState("");
+  const [equipmentName, setEquipmentName] = useState("");
+  const [rentalDuration, setRentalDuration] = useState("");
+  const [searchResults, setSearchResults] = useState([]);
+  const [showPopup, setShowPopup] = useState(false);
+
+  const filteredEquipments = equipments.filter(equipment =>
+    equipment.title.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
+  const handleSearch = () => {
+    const term = equipmentName || searchTerm;
+    setSearchTerm(term);
+    const results = equipments.filter(equipment =>
+      equipment.title.toLowerCase().includes(term.toLowerCase())
+    );
+    setSearchResults(results);
+    setShowPopup(true);
+  };
+
   return (
     <div className="hero-section">
       <div className="hero-b overlay">
@@ -15,8 +35,10 @@ const Hero = () => {
                 type="text"
                 placeholder="Search For Something..."
                 className="search-input"
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
               />
-              <button className="search-button">Search</button>
+              <button className="search-button" onClick={handleSearch}>Search</button>
             </div>
 
             <p className="fs-1.2 pt-5">
@@ -30,14 +52,32 @@ const Hero = () => {
             type="text"
             placeholder="   Equipment Name....."
             className="input-field"
+            value={equipmentName}
+            onChange={(e) => setEquipmentName(e.target.value)}
           />
           <input
             type="text"
             placeholder="   Rental Duration Date....."
             className="input-field"
+            value={rentalDuration}
+            onChange={(e) => setRentalDuration(e.target.value)}
           />
-          <button className="find-button fw-medium"> FIND EQUIPMENT</button>
+          <button className="find-button fw-medium" onClick={handleSearch}> FIND EQUIPMENT</button>
         </div>
+        {showPopup && (
+          <div className="search-popup">
+            <button onClick={() => setShowPopup(false)}>Close</button>
+            <h3>Search Results for "{searchTerm}"</h3>
+            <div className="results-list">
+              {searchResults.map((equipment) => (
+                <div key={equipment._id} className="result-item">
+                  <img src={equipment.Image} alt={equipment.title} />
+                  <h5>{equipment.title}</h5>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
       <div>
         <div className="p-3 mt-5 ">
@@ -52,7 +92,7 @@ const Hero = () => {
           </h2>
         </div>{" "}
         <div className="categories-container">
-          {equipments.map((equipment) => {
+          {filteredEquipments.map((equipment) => {
             return (
               <div className="category-item" key={equipment._id}>
                 <img src={equipment.Image} alt={equipment.title} />

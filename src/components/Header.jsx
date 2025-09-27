@@ -16,6 +16,7 @@ import { IoMdMenu, IoMdClose } from "react-icons/io";
 
 const Header = () => {
   const [expanded, setExpanded] = useState(false);
+  const location = useLocation();
   const handleToggle = () => {
     setExpanded(!expanded);
   };
