@@ -1,4 +1,9 @@
-- [ ] Fix .top-section width from 105% to 100% to prevent horizontal overflow
-- [ ] Add overflow-x: hidden to body
-- [ ] Add scroll-behavior: smooth to html
-- [ ] Test on mobile viewport
+# TODO for Firebase Authentication Setup
+
+- [x] Install Firebase SDK
+- [x] Create src/firebase.js with config
+- [x] Create src/context/AuthContext.jsx
+- [x] Create src/Pages/Login.jsx
+- [x] Create src/components/PrivateRoute.jsx
+- [x] Create src/Pages/Dashboard.jsx
+- [x] Update src/App.jsx with new routes
