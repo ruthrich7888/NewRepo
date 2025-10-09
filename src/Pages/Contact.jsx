@@ -41,7 +41,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <GrLocation />
-                    <h6>7430 Redwing Rd. Groveland, FL 34736.</h6>
+                    {/* <h6>7430 Redwing Rd. Groveland, FL 34736.</h6> */}
                   </div>
                   <div className="line m-1">
                     <Line length={170} color="white" orientation="horizontal" />
@@ -51,7 +51,7 @@ const Contact = () => {
                       <LuPhoneCall />
                     </span>
                     <h6>For Rental Support</h6>
-                    <h6>+1 (667) 439 3624 </h6>
+                    <h6>+1 (667) 439 0900 </h6>
                   </div>
                   <div className="line m-1">
                     <Line length={170} color="white" orientation="horizontal" />
@@ -117,7 +117,7 @@ const Contact = () => {
               </div> */}
             </div>
           </div>
-          <div className="map">
+          {/* <div className="map">
             <iframe
               src="https://www.google.com/maps/embed/v1/place?q=7430+Redwing+Rd.+Groveland,+FL+34736&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
               width="100%"
@@ -127,7 +127,7 @@ const Contact = () => {
               frameborder="0"
               loading="lazy"
             ></iframe>
-          </div>
+          </div> */}
         </div>
         <WeHelp />
       </Layout>
