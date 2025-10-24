@@ -14,16 +14,21 @@ import Careers from "./Pages/Careers";
 import Errorpage from "./Pages/Errorpage";
 import Login from "./Pages/Login";
 import Dashboard from "./Pages/Dashboard";
+import TrainingPage from "./Pages/TraningPage";
+import EmployeeHandbook from "./components/EmployeeHandbook";
+import ITPolicies from "./components/ITPolicies";
+import SafetyProcedures from "./components/SafetyProcedures";
+
 import PrivateRoute from "./components/PrivateRoute";
 import { AuthProvider } from "./context/AuthContext";
-import { ToastContainer } from 'react-toastify';
+import { ToastContainer } from "react-toastify";
 import { IoReturnUpBackSharp } from "react-icons/io5";
 import Head from "./components/Head";
 import Maintenance from "./components/Maintenance";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const App = () => {
-  const isMaintenance = import.meta.env.VITE_MAINTENANCE === 'true';
+  const isMaintenance = import.meta.env.VITE_MAINTENANCE === "true";
 
   if (isMaintenance) {
     return <Maintenance />;
@@ -55,7 +60,46 @@ const App = () => {
           <Route path="/careers" element={<Careers />} />
           <Route path="/errorpage" element={<Errorpage />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/dashboard" element={<PrivateRoute><Dashboard /></PrivateRoute>} />
+          <Route
+            path="/dashboard"
+            element={
+              <PrivateRoute>
+                <Dashboard />
+              </PrivateRoute>
+            }
+          />
+          <Route
+            path="/training"
+            element={
+              <PrivateRoute>
+                <TrainingPage />
+              </PrivateRoute>
+            }
+          />
+          <Route
+            path="/employee-handbook"
+            element={
+              <PrivateRoute>
+                <EmployeeHandbook />
+              </PrivateRoute>
+            }
+          />
+          <Route
+            path="/safety-procedures"
+            element={
+              <PrivateRoute>
+                <SafetyProcedures />
+              </PrivateRoute>
+            }
+          />
+          <Route
+            path="/it-policies"
+            element={
+              <PrivateRoute>
+                <ITPolicies />
+              </PrivateRoute>
+            }
+          />
         </Routes>
         {/* <Analytics /> */}
       </BrowserRouter>
