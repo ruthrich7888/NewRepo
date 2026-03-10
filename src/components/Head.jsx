@@ -71,7 +71,7 @@ function Header() {
 
             <span className="fw-bold d-inline-block">
               {" "}
-              GET QUICK SUPPORT +1 (352) 255 3979 / +1 (667) 439 3624
+              GET QUICK SUPPORT +1 (727) 286 9327
             </span>
             <div className="d-none d-lg-flex">
               <Line length={40} color="black" orientation="vertical" />
