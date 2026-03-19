@@ -288,48 +288,57 @@ const Careers = () => {
               </>
               <br />
               <>
-                <label for="resume">Upload Resume (PDF/DOCX only):</label>
+                <label for="resume">Upload Resume (PDF/DOCX/Image):</label>
                 <input
                   type="file"
                   id="resume"
                   name="resume"
-                  accept=".pdf, .doc, .docx"
+                  accept=".pdf,.doc,.docx,image/*"
                   required
-                ></input>
+                />
               </>
 
               <>
                 <label for="idCardFront">
-                  Unexpired Identification Form Front View (PDF/DOCX only):
+                  Unexpired Identification Form Front View (Upload or Take
+                  Photo):
                 </label>
                 <input
                   type="file"
                   id="idCardFront"
-                  name="attachment"
-                  accept=".pdf, .doc, .docx"
+                  name="idCardFront"
+                  accept="image/*,.pdf,.doc,.docx"
+                  capture="environment"
                   required
                 />
+
                 <label for="idCardBack">
-                  Unexpired Identification Form Back View (PDF/DOCX only):
+                  Unexpired Identification Form Back View (Upload or Take
+                  Photo):
                 </label>
                 <input
                   type="file"
-                  name="attachment"
-                  accept=".pdf, .doc, .docx"
+                  id="idCardBack"
+                  name="idCardBack"
+                  accept="image/*,.pdf,.doc,.docx"
+                  capture="environment"
                   required
                 />
               </>
+
               <br />
+
               <>
-                <label for="w9form"> W9 Form (PDF/DOCX only):</label>
+                <label for="w9form">W9 Form (PDF/DOCX/Image):</label>
                 <input
                   type="file"
                   id="w9form"
                   name="w9form"
-                  accept=".pdf, .doc, .docx"
+                  accept=".pdf,.doc,.docx,image/*"
                   required
-                ></input>
+                />
               </>
+
               {/* <>
                 <h3>References</h3>
                 <label for="ref1">Reference 1 Name:</label>
