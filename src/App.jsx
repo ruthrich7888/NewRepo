@@ -18,6 +18,7 @@ import TrainingPage from "./Pages/TraningPage";
 import EmployeeHandbook from "./components/EmployeeHandbook";
 import ITPolicies from "./components/ITPolicies";
 import SafetyProcedures from "./components/SafetyProcedures";
+import OnboardingDashboard from "./components/OnboardingDashboard";
 
 import PrivateRoute from "./components/PrivateRoute";
 import { AuthProvider } from "./context/AuthContext";
@@ -92,6 +93,16 @@ const App = () => {
               </PrivateRoute>
             }
           />
+
+          <Route
+            path="/onboarding-dashboard"
+            element={
+              <PrivateRoute>
+                <OnboardingDashboard />
+              </PrivateRoute>
+            }
+          />
+
           <Route
             path="/it-policies"
             element={

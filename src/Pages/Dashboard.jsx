@@ -60,7 +60,7 @@ const Dashboard = () => {
                     <button
                       style={{
                         padding: "10px 20px",
-                        backgroundColor: "#4CAF50",
+                        backgroundColor: "#3f8641",
                         color: "#fff",
                         border: "none",
                         borderRadius: "5px",
@@ -86,6 +86,23 @@ const Dashboard = () => {
                       }}
                     >
                       Review our Safety Procedures
+                    </button>
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/onboarding-dashboard">
+                    <button
+                      style={{
+                        padding: "10px 20px",
+                        backgroundColor: "#173d28",
+                        color: "#fff",
+                        border: "none",
+                        borderRadius: "5px",
+                        cursor: "pointer",
+                        fontSize: "16px",
+                      }}
+                    >
+                      Equipment Procurement Agreement
                     </button>
                   </Link>
                 </li>
