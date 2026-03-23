@@ -19,6 +19,7 @@ import EmployeeHandbook from "./components/EmployeeHandbook";
 import ITPolicies from "./components/ITPolicies";
 import SafetyProcedures from "./components/SafetyProcedures";
 import OnboardingDashboard from "./components/OnboardingDashboard";
+import EmployeeDownloads from "./components/EmployeeDownloads";
 
 import PrivateRoute from "./components/PrivateRoute";
 import { AuthProvider } from "./context/AuthContext";
@@ -99,6 +100,14 @@ const App = () => {
             element={
               <PrivateRoute>
                 <OnboardingDashboard />
+              </PrivateRoute>
+            }
+          />
+          <Route
+            path="/employee-downloads"
+            element={
+              <PrivateRoute>
+                <EmployeeDownloads />
               </PrivateRoute>
             }
           />

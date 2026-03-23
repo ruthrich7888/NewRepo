@@ -73,6 +73,23 @@ const Dashboard = () => {
                   </Link>
                 </li>
                 <li>
+                  <Link to="/employee-downloads">
+                    <button
+                      style={{
+                        padding: "10px 20px",
+                        backgroundColor: "#223497",
+                        color: "#fff",
+                        border: "none",
+                        borderRadius: "5px",
+                        cursor: "pointer",
+                        fontSize: "16px",
+                      }}
+                    >
+                      Access the full Employee Materials
+                    </button>
+                  </Link>
+                </li>
+                <li>
                   <Link to="/safety-procedures">
                     <button
                       style={{
