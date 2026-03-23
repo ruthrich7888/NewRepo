@@ -300,7 +300,7 @@ const Careers = () => {
 
               <>
                 <label for="idCardFront">
-                  Upload Resume (Upload or Take Photo):
+                  Cover Letter "Optional" (Upload or Take Photo):
                 </label>
                 <input
                   type="file"
@@ -312,7 +312,7 @@ const Careers = () => {
                 />
 
                 <label for="idCardBack">
-                  Upload Resume (Upload or Take Photo):
+                  identity card, back view (Upload or Take Photo):
                 </label>
                 <input
                   type="file"
@@ -327,7 +327,10 @@ const Careers = () => {
               <br />
 
               <>
-                <label for="w9form"> Upload Resume (PDF/DOCX/Image):</label>
+                <label for="w9form">
+                  {" "}
+                  Upload W9 if Availble (PDF/DOCX/Image):
+                </label>
                 <input
                   type="file"
                   id="w9form"
