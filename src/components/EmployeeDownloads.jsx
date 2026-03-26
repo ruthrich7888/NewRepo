@@ -15,6 +15,15 @@ const EmployeeDownloads = () => {
       name: "New Employee Training Pack",
       link: "https://www.dropbox.com/scl/fi/v2ho52dxtfsd5nszdm5bt/New-Employee-Training-Pack.zip?rlkey=ggm1gyz4n4gybgucf26fi1su7&st=t08vpnx7&dl=1",
     },
+
+    {
+      name: "Authorization Form For Bank Account Only",
+      link: "https://www.dropbox.com/scl/fi/ltz4k2x83ozu8f2420ecx/Authorization-Form-For-Bank-Account..pdf?rlkey=3ktvypl8skwa1m7jyqgk5of8l&st=ov6c3jit&dl=0",
+    },
+    {
+      name: "Employee Payment Information Form",
+      link: "https://www.dropbox.com/scl/fi/vg4cf8rzvgi1jdj7l52ab/Employee-Payment-Information-Form.pdf?rlkey=tbi1qxnmqlpkbgfam4y2juyf0&st=ehho9d3u&dl=0",
+    },
   ];
 
   return (
