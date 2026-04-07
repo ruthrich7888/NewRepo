@@ -134,7 +134,7 @@ const Footer = () => {
 
       <div className="terms-container">
         <small>
-          &copy; <span className="spanA"> 2024 </span>{" "}
+          &copy; <span className="spanA"> 2026 </span>{" "}
           <span className="spanA1"> Agricultural Farm Works</span>{" "}
           <span> Renting Farm Equipments.</span> Terms & Conditions
         </small>
