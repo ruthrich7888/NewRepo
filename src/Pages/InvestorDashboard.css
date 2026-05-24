@@ -1,0 +1,309 @@
+.dashboard-wrapper {
+  display: flex;
+
+  min-height: 100vh;
+
+  background: #0f1720;
+
+  color: white;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+  width: 260px;
+
+  min-height: 100vh;
+
+  background: #111827;
+
+  padding: 30px 20px;
+
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+
+  position: sticky;
+
+  top: 0;
+}
+
+.sidebar-logo {
+  font-size: 24px;
+
+  font-weight: 700;
+
+  margin-bottom: 40px;
+
+  color: #d4af37;
+}
+
+.sidebar-nav {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.sidebar-nav .nav-link {
+  color: #cbd5e1 !important;
+
+  margin-bottom: 12px;
+
+  font-size: 16px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  padding: 12px 14px;
+
+  border-radius: 12px;
+
+  transition: 0.3s;
+}
+
+.sidebar-nav .nav-link:hover {
+  background: #1e293b;
+
+  color: white !important;
+}
+
+/* MAIN CONTENT */
+
+.dashboard-content {
+  flex: 1;
+
+  padding: 30px;
+
+  overflow-x: hidden;
+}
+
+/* TOPBAR */
+
+.topbar {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 40px;
+
+  gap: 20px;
+}
+
+.topbar p {
+  color: #94a3b8;
+
+  margin: 0;
+}
+
+/* BUTTONS */
+
+.fund-btn {
+  background: #d4af37 !important;
+
+  border: none !important;
+
+  color: black !important;
+
+  font-weight: 600 !important;
+
+  padding: 12px 25px !important;
+
+  border-radius: 12px !important;
+}
+
+.deposit-btn {
+  background: #22c55e !important;
+
+  border: none !important;
+
+  padding: 12px 24px !important;
+
+  border-radius: 12px !important;
+}
+
+.withdraw-btn {
+  background: #ef4444 !important;
+
+  border: none !important;
+
+  padding: 12px 24px !important;
+
+  border-radius: 12px !important;
+}
+
+/* STAT CARDS */
+
+.stat-card {
+  background: #1e293b !important;
+
+  border: none !important;
+
+  border-radius: 20px !important;
+
+  padding: 25px !important;
+
+  color: white !important;
+
+  height: 100%;
+}
+
+.stat-icon {
+  font-size: 30px;
+
+  margin-bottom: 15px;
+
+  color: #d4af37;
+}
+
+.stat-card h6 {
+  color: #94a3b8;
+}
+
+.stat-card h2 {
+  margin-top: 10px;
+
+  font-weight: 700;
+}
+
+.positive {
+  color: #22c55e;
+
+  font-size: 14px;
+}
+
+/* ACTION BUTTONS */
+
+.action-buttons {
+  display: flex;
+
+  gap: 20px;
+
+  flex-wrap: wrap;
+}
+
+/* TABLE */
+
+.table-card {
+  background: #1e293b !important;
+
+  border: none !important;
+
+  border-radius: 20px !important;
+
+  padding: 20px !important;
+}
+
+.table {
+  color: white !important;
+
+  margin-bottom: 0;
+}
+
+.table thead {
+  color: #94a3b8;
+}
+
+.active-status {
+  background: #22c55e;
+
+  padding: 6px 14px;
+
+  border-radius: 30px;
+
+  font-size: 13px;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 992px) {
+  .dashboard-wrapper {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+
+    min-height: auto;
+
+    position: relative;
+
+    border-right: none;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+
+    padding: 15px;
+  }
+
+  .sidebar-logo {
+    margin-bottom: 20px;
+
+    text-align: center;
+  }
+
+  .sidebar-nav {
+    flex-direction: row;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 10px;
+  }
+
+  .sidebar-nav .nav-link {
+    margin-bottom: 0;
+
+    font-size: 14px;
+
+    padding: 10px 12px;
+  }
+
+  .dashboard-content {
+    width: 100%;
+
+    padding: 20px;
+  }
+
+  .topbar {
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+}
+
+/* SMALL MOBILE */
+
+@media (max-width: 576px) {
+  .dashboard-content {
+    padding: 15px;
+  }
+
+  .topbar h2 {
+    font-size: 24px;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+
+    width: 100%;
+  }
+
+  .action-buttons button {
+    width: 100%;
+  }
+
+  .fund-btn {
+    width: 100%;
+  }
+
+  .stat-card {
+    padding: 20px !important;
+  }
+
+  .table-card {
+    overflow-x: auto;
+  }
+}

@@ -58,9 +58,9 @@ const Careers = () => {
         body: data,
       });
       if (response.ok) {
-        alert("Form submitted successfully!");
+        toast.success("Form submitted successfully!");
       } else {
-        alert("Something went wrong. Please try again.");
+        toast.error("Something went wrong. Please try again.");
         git;
       }
       const result = await response.json();

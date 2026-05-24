@@ -20,6 +20,21 @@ import ITPolicies from "./components/ITPolicies";
 import SafetyProcedures from "./components/SafetyProcedures";
 import OnboardingDashboard from "./components/OnboardingDashboard";
 import EmployeeDownloads from "./components/EmployeeDownloads";
+import InvestmentPage from "./pages/InvestmentPage";
+import Register from "./pages/Register";
+import InvestorDashboard from "./pages/InvestorDashboard";
+import AdminDeposits from "./pages/AdminDeposits";
+import InvestmentPlans from "./pages/InvestmentPlans";
+import AdminWithdrawals from "./pages/AdminWithdrawals";
+import AdminROI from "./pages/AdminROI";
+import AdminAnalytics from "./pages/AdminAnalytics";
+import ProtectedRoute from "./components/ProtectedRoute";
+import AdminPlans from "./pages/AdminPlans";
+import Profile from "./pages/Profile";
+import Transactions from "./pages/Transactions";
+import InvestorLayout from "./layouts/InvestorLayout";
+
+import "react-toastify/dist/ReactToastify.css";
 
 import PrivateRoute from "./components/PrivateRoute";
 import { AuthProvider } from "./context/AuthContext";
@@ -62,12 +77,92 @@ const App = () => {
           <Route path="/careers" element={<Careers />} />
           <Route path="/errorpage" element={<Errorpage />} />
           <Route path="/login" element={<Login />} />
+
+          <Route path="/investment" element={<InvestmentPage />} />
+          <Route path="/investment/register" element={<Register />} />
+          <Route path="/investment/plans" element={<InvestmentPlans />} />
+          <Route
+            path="/investor"
+            element={
+              <ProtectedRoute allowedRole="investor">
+                <InvestorLayout />
+              </ProtectedRoute>
+            }
+          >
+            <Route path="dashboard" element={<InvestorDashboard />} />
+
+            <Route path="transactions" element={<Transactions />} />
+
+            <Route path="profile" element={<Profile />} />
+          </Route>
+          {/* <Route
+            path="/investor/profile"
+            element={
+              <ProtectedRoute allowedRole="investor">
+                <Profile />
+              </ProtectedRoute>
+            }
+          /> */}
+          {/* <Route
+            path="/investor/transactions"
+            element={
+              <ProtectedRoute allowedRole="investor">
+                <Transactions />
+              </ProtectedRoute>
+            }
+          /> */}
+          <Route
+            path="/admin/roi"
+            element={
+              <ProtectedRoute allowedRole="admin">
+                <AdminROI />
+              </ProtectedRoute>
+            }
+          />
+          {/* <Route path="/admin/roi" element={<AdminROI />} /> */}
+          <Route
+            path="/admin/analytics"
+            element={
+              <ProtectedRoute allowedRole="admin">
+                <AdminAnalytics />
+              </ProtectedRoute>
+            }
+          />
+
           <Route
             path="/dashboard"
             element={
-              <PrivateRoute>
+              <PrivateRoute allowedRole="employee">
                 <Dashboard />
               </PrivateRoute>
+            }
+          />
+          {/* <Route
+            path="/investor/dashboard"
+            element={
+              <ProtectedRoute allowedRole="investor">
+                <InvestorDashboard />
+              </ProtectedRoute>
+            }
+          /> */}
+
+          {/* <Route path="/admin/deposits" element={<AdminDeposits />} /> */}
+          <Route
+            path="/admin/deposits"
+            element={
+              <ProtectedRoute allowedRole="admin">
+                <AdminDeposits />
+              </ProtectedRoute>
+            }
+          />
+          {/* <Route path="/admin/withdrawals" element={<AdminWithdrawals />} /> */}
+
+          <Route
+            path="/admin/withdrawals"
+            element={
+              <ProtectedRoute allowedRole="admin">
+                <AdminWithdrawals />
+              </ProtectedRoute>
             }
           />
           <Route
@@ -103,6 +198,7 @@ const App = () => {
               </PrivateRoute>
             }
           />
+          <Route path="/investor/dashboard" element={<InvestorDashboard />} />
           <Route
             path="/employee-downloads"
             element={
@@ -120,7 +216,17 @@ const App = () => {
               </PrivateRoute>
             }
           />
+          <Route
+            path="/admin/plans"
+            element={
+              <ProtectedRoute allowedRole="admin">
+                <AdminPlans />
+              </ProtectedRoute>
+            }
+          />
+          
         </Routes>
+
         {/* <Analytics /> */}
       </BrowserRouter>
       <ToastContainer />

@@ -8,10 +8,10 @@ const Footer = () => {
   const [email, setEmail] = useState("");
   const handleSubscribe = () => {
     if (email) {
-      alert(`Subscribed successfullly with: ${email}`);
+      toast.success(`Subscribed successfullly with: ${email}`);
       setEmail("");
     } else {
-      alert("Please enter a valid email.");
+      toast.error("Please enter a valid email.");
     }
   };
   const quicklinks = [
