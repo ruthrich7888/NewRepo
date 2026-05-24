@@ -224,7 +224,6 @@ const App = () => {
               </ProtectedRoute>
             }
           />
-          
         </Routes>
 
         {/* <Analytics /> */}
