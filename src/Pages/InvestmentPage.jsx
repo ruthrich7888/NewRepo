@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Button, Card, Form } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
+import Testimonials from "../components/Testimonials";
+import FAQAccordion from "../components/FAQAccordion";
 
 import {
   FaTruck,
@@ -334,6 +336,10 @@ const InvestmentPage = () => {
             <Button className="cta-btn" as={Link} to="/investment/register">
               Create Investor Account
             </Button>
+          </div>
+          <div>
+            <Testimonials />
+            <FAQAccordion />
           </div>
         </Container>
       </section>

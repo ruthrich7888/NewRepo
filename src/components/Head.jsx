@@ -36,6 +36,12 @@ function Header() {
     },
 
     {
+      id: 3,
+      to: "/investment",
+      content: "START INVESTING",
+    },
+
+    {
       id: 4,
       to: "/careers",
       content: "CAREERS",

@@ -27,6 +27,11 @@ const Footer = () => {
       content: "EquipmentList",
     },
     {
+      id: 3,
+      to: "/investment",
+      content: "start investing",
+    },
+    {
       id: 6,
       to: "/contact",
       content: "Contact",
