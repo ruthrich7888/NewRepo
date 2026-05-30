@@ -36,7 +36,7 @@ import InvestorLayout from "./layouts/InvestorLayout";
 
 import "react-toastify/dist/ReactToastify.css";
 
-import PaymentPage from "./pages/PaymentPage";
+import PaymentPage from "./Pages/PaymentPage";
 
 import PrivateRoute from "./components/PrivateRoute";
 import { AuthProvider } from "./context/AuthContext";
