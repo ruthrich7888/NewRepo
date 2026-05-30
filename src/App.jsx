@@ -36,6 +36,8 @@ import InvestorLayout from "./layouts/InvestorLayout";
 
 import "react-toastify/dist/ReactToastify.css";
 
+import PaymentPage from "./pages/PaymentPage";
+
 import PrivateRoute from "./components/PrivateRoute";
 import { AuthProvider } from "./context/AuthContext";
 import { ToastContainer } from "react-toastify";
@@ -95,7 +97,11 @@ const App = () => {
 
             <Route path="profile" element={<Profile />} />
           </Route>
+
+          <Route path="/payment" element={<PaymentPage />} />
           {/* <Route
+
+          
             path="/investor/profile"
             element={
               <ProtectedRoute allowedRole="investor">
